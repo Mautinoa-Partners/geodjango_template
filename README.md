@@ -1,6 +1,6 @@
 #Welcome To The Generic Django Development Environment
 
-This is a GIS project template written by Dheeraj Chand of [Clarity and Rigour](http://www.clarityandrigour.com) (email: first_initial+last_name AT clarity and rigour DOT COM, strip the spaces and do the subs).
+This is a GIS project template written by Dheeraj Chand of [Mautinoa](http://www.mautinoa.com) (email: first_name AT mautinoa DOT COM, do the subs).
 This template:
 
 1. Is written in [Python](http://www.python.org),
@@ -8,7 +8,7 @@ This template:
 3. Uses [GeoDjango](http://www.geodjango.org) as the application framework and
 4. Uses [R](http://www.r-project.org) for computations.
 
-Credits to: 
+Credits to:
 
 1. [George Nassar](https://github.com/gnassar) for his help in understanding nginx's configuration files.
 2. [Jonathan Arehart](https://twitter.com/jonathanarehart) for his general help in understanding server configuration.
@@ -40,7 +40,7 @@ Nothing happens in a vacuum. I got a lot of help. Here are some of the reference
 
 ## Repo Contents
 
-1. Vagrantfile + Ansible Playbook for virtual machine config. Ansible inspiration from [this project], and configuration instructions modified from 
+1. Vagrantfile + Ansible Playbook for virtual machine config. Ansible inspiration from [this project], and configuration instructions modified from
 2. Code for a generic Django 1.10 project at the top level of the repo, which you can configure to your liking.
 
 ##Host Environment
@@ -81,7 +81,7 @@ python manage.py createsuperuser
 
 or by using the manage.py tool in your IDE. [PyCharm](https://www.jetbrains.com/pycharm/) has that built in!
 
-To configure your GeoServer, you will need to go to [http://localhost:8081/geoserver](http://localhost:8081/geoserver) and log in. The default credentials are *admin* , *geoserver*.  From there, you can do whatever you need. 
+To configure your GeoServer, you will need to go to [http://localhost:8081/geoserver](http://localhost:8081/geoserver) and log in. The default credentials are *admin* , *geoserver*.  From there, you can do whatever you need.
 
 ##Management
 If you make any changes to Vagrantfile, requirements.txt, or default.pp:
